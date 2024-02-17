@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bc4rs36vyk1mi"]
+
+[ext_resource type="Script" path="res://AudioManager.cs" id="1_qgaqp"]
+
+[node name="AudioManager" type="Node"]
+script = ExtResource("1_qgaqp")
+
+[node name="Input" type="AudioStreamPlayer" parent="."]
+bus = &"Record"
